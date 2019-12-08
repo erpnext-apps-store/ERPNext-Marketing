@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include mdm_marketing *.css
+recursive-include mdm_marketing *.csv
+recursive-include mdm_marketing *.html
+recursive-include mdm_marketing *.ico
+recursive-include mdm_marketing *.js
+recursive-include mdm_marketing *.json
+recursive-include mdm_marketing *.md
+recursive-include mdm_marketing *.png
+recursive-include mdm_marketing *.py
+recursive-include mdm_marketing *.svg
+recursive-include mdm_marketing *.txt
+recursive-exclude mdm_marketing *.pyc
